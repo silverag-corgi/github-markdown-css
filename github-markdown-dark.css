@@ -1082,3 +1082,8 @@ body alertalert-caution {
 body alertalert-caution alert-title {
   color: #f85149;
 }
+
+/* Page Break : use <div class="page"/> to insert page break */
+body div.page {
+  page-break-after: always;
+}
